@@ -1,0 +1,62 @@
+/* common shared css */
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+.all-paragraph {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+    line-height: 26px;
+}
+
+
+/* header part  */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    align-items: center;
+}
+
+.header-description-title-part {
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    /* text-align: right; */
+}
+
+.header-paragraph {
+    /* text-align: right; */
+    width: 500px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.header-button {
+    border-radius: 5px;
+    background: #F15B22;
+    width: 160px;
+    height: 64px;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+
+.description-part {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    margin-right: 150px;
+}
+
+.picture-part {
+    max-width: 525px;
+}
