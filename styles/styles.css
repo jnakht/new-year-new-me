@@ -11,9 +11,7 @@ body {
     line-height: 26px;
 }
 
-
 /* header part  */
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -48,7 +46,6 @@ body {
     margin-top: 0;
 }
 
-
 .description-part {
     display: flex;
     flex-direction: column;
@@ -73,7 +70,6 @@ body {
     font-weight: 400;
     line-height: 26px;
     list-style: none;
-   
 }
 
 ul .fa-solid {
@@ -102,7 +98,6 @@ ul .fa-solid {
     align-items: left;
     margin-right: 256px;
     margin-top: 130px;
-    
 }
 
 .failure-title {
@@ -113,7 +108,134 @@ ul .fa-solid {
     width: 400px;
     text-align: left;
 }
- .failures-part {
-      margin-top: 150px; 
 
- }
+.failures-part {
+    margin-top: 150px;
+}
+
+.plans-title {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 00;
+}
+
+.plans-icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 230px;
+}
+
+.plans-block {
+    text-align: center;
+}
+
+.plan-block-title {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.plan-block-destination {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.my-plans-part {
+    margin-bottom: 135px;
+}
+
+.positive-mindset-part {
+    height: 300px;
+    width: 1000px;
+    background-image: url('../images/gradient3.png'), url('../images/watch.png');
+    margin-left: 265px;
+    background-size: cover, cover;
+    /* background-blend-mode: multiply; */
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.positive-mindset-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.call-now-button {
+    border-radius: 5px;
+    height: 64px;
+    width: 160px;
+    background: #FFF;
+    color: #F15B22;
+    border: 0;
+}
+
+.pos-mid {
+    padding-left: 50px;
+    padding-top: 15px;
+    width: 500px;
+}
+
+.footer-title-1 {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-title-2 {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.f-c-2 input[type="email"] {
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: 325px;
+    height: 64px;
+    background-color: #151414;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between ;
+    align-items: flex-start;
+    background-color: #151414;
+    padding: 130px 230px;
+}
+
+.f-c-2 input[type="submit"] {
+    width: 170.106px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-icons img {
+    margin-right: 10px;
+}
+
+.f-c-1 {
+    width: 450px;
+}
+.f-c-2 {
+    padding-top: 15px;
+}
+
